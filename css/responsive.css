@@ -1,0 +1,138 @@
+@media (max-width: 1030px){
+
+/*home css start*/
+		.home .home-banner-1,
+		.home .home-banner-2{
+			background-position: 65% center;
+			min-height: 550px;
+		}
+		.home .home-banner .home-banner-text{
+			transform: translate(-80%, -50%);
+		}
+/*home css end*/
+
+/*		offer css start*/
+		.offers .offer-box .offer-info .heading-bigger{
+			font-size: 3rem;
+		}
+/*		offer css end*/
+
+/*special css start*/
+		.special .countdown-container .countdown-counter li{
+			padding: 1.5rem 1rem;
+		}
+/*special css end*/
+}
+
+
+
+
+@media (max-width: 991px){
+
+/*home css start*/
+	.home .home-banner .home-banner-text{
+			transform: translate(-66%, -50%);
+		}
+/*home css end*/
+
+/*special css*/
+
+	.special .countdown-container{
+		padding-top: 1rem;
+		padding-bottom: 5rem;
+	}		
+/*special css*/	
+
+/*testimonial	*/
+	.testimonial .carousel-control-next{
+	    right: -1.75rem;
+	}
+	.testimonial .carousel-control-prev{
+	    left: -1.75rem;
+	}
+/*testimonial	*/
+}
+
+
+
+
+
+@media (max-width: 768px){
+
+/*home css start*/
+	.home .home-banner-1,
+	.home .home-banner-2 {
+		background-position: 50% center;
+		min-height: 450px;
+	}
+	.home .home-banner .home-banner-text{
+		text-align: center;
+		width: 100%;
+		transform: translate(-50%, -50%);
+	}
+	.home .home-banner .home-banner-text h1{
+		font-size: 3rem;
+	}
+	.home .home-banner .home-banner-text h2{
+		font-size: 1.2rem;
+	}
+	.home .home-banner .home-banner-text .btn-danger {
+		padding: 0.5rem, 1.5rem;
+	}
+	.home .slider-icon{
+		font-size: 2rem;
+	}
+/*home css end*/
+
+/*product css*/
+
+	.products .up_to_content h2{
+		font-size: 0.75rem;
+	}
+/*product css*
+
+/*special css*/	
+
+	.special{
+		padding: 4rem 0;
+	}
+	.special .countdown-container .countdown-counter li{
+		padding: 1rem;
+		width: 20%;
+	}
+/*special css*/
+
+/*testimonial	*/
+	.testimonial .testimonial-wrapper{
+		padding: 1rem;
+	}
+
+
+	.testimonial .carousel-control-next,
+	.testimonial .carousel-control-prev{
+	    display: none;
+	}
+/*testimonial	*/
+	
+}
+
+
+	
+
+
+
+
+
+@media (max-width:330px){
+	.home .home-banner .home-banner-text h2{
+		font-size: 1rem;
+	}
+
+	.products .up_to_content h2{
+		font-size: 0.625rem;
+	}
+}
+
+
+
+
